@@ -75,11 +75,22 @@
 }
 
 .footer-container {
-    margin: 35px;
-    margin-left: 190px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.footer-container-left {
+    margin: 30px;
+}
+
+.footer-container-right {
+    margin: 30px;
 }
 
 .footer-text {
-    font-size: 20px;
+    font-size: 18px;
     font-family: sans-serif; 
 }
