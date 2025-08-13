@@ -1,0 +1,50 @@
+.content-carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua;
+}
+
+.content-carousel-title {
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.content-carousel-paragraph {
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.content-carousel-slide {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: rgb(0, 255, 81);
+}
+
+.content-carousel-button {
+    margin: 20px;
+    padding: 15px;
+    background-color: rgb(80, 146, 204);
+    border-radius: 25px;
+    border-width: 0px;
+}
+
+.content-carousel-button:hover {
+    background-color: rgb(51, 92, 129);
+    transition: 300ms;
+}
+
+.content-carousel-button-text {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.carousel-slide-img {
+    width: 683px;
+    height: 384px;
+    border-radius: 20px;
+}

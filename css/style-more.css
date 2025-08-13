@@ -1,0 +1,44 @@
+.content-more {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;  
+}
+
+.content-more-title {
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 25px;
+}
+
+.content-more-item {
+    display: flex;
+    max-width: 450px;
+    flex-direction: row; 
+    padding: 10px;
+    margin: 10px;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+
+.content-more-item:hover {
+    background-color: rgb(1, 1, 1, 0.5);
+    transition: 300ms;
+}
+
+.content-more-item-icon {
+    width: 75px;
+    height: 55px;
+    margin: 10px;
+}
+
+.content-more-item-title {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.content-more-item-paragraph {
+    font-size: 20px;
+    font-family: sans-serif;
+}

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debian</title>
+    <link href="css/navbar.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-carousel.css" rel="stylesheet">
+    <link href="css/style-download.css" rel="stylesheet">
+    <link href="css/style-more.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="screen">
+        <nav class="navbar">
+            <div class="nav-logo">
+                <img alt="Debian logo" src="img/debian-logo.png" class="nav-logo-img">
+                <p class="nav-logo-txt">Debian</p>
+            </div>
+
+            <div class="nav-buttons">
+                <div class="nav-button">
+                    <p class="nav-button-text">Blog</p>
+                </div>
+                <div class="nav-button">
+                    <p class="nav-button-text">Micronews</p>
+                </div>
+                <div class="nav-button">
+                    <p class="nav-button-text">Planet</p>
+                </div>
+                <div class="nav-button">
+                    <p class="nav-button-text">Wiki</p>
+                </div>
+            </div>
+
+            <div class="searchbar">
+                <input type="text" placeholder="Type here..." class="searchbar-input">
+                <img src="icons/magnifying_glass.webp" class="searchbar-magnifying_glass">
+            </div>
+        </nav>
+
+        <main class="content">
+            <div class="content-download">
+                <div class="content-download-text">
+                    <h2 class="download-text-title">The Operating System</h2>
+                    <p class="download-text-paragraph">
+                        Debian is the ideal choice for you if you looking a stable and reliable operating system.
+                        It is used by millions of people around the world and is known for its long-term stability and security.
+                        It is trusted by developers, businesses, and governments for critical systems.
+                    </p>
+                    <div class="content-download-area">
+                        <button class="content-download-button">
+                            <p class="content-download-button-text">Download</p>
+                            <img alt="Debian gnome screen" src="img/icon_download.png" class="content-download-button-icon">
+                        </button>
+                        <a class="content-download-link"><p class="content-download-link-text">Others downloads</p></a>
+                    </div>
+                </div>
+                <img alt="Debian gnome screen" src="img/debian-screen-gnome.webp" class="debian-gnome-img">
+            </div>
+
+            <div class="content-carousel">
+                <h2 class="content-carousel-title">The Community</h2>
+                <p class="content-carousel-paragraph">Debian is a complete Free Operating System!</p>
+                <div class="content-carousel-slide">
+                    <button class="content-carousel-button" onclick="previousSlide()">
+                        <p class="content-carousel-button-text"> < </p>
+                    </button>
+
+                    <img alt="DC25 Group Photo" src="img/carousel/slide1.jpg" class="carousel-slide-img">
+                    <img alt="MiniDebConf Hamburg 2025" src="img/carousel/slide2.jpg" class="carousel-slide-img">
+                    <img alt="MiniDebConf Maceió 2025" src="img/carousel/slide3.jpg" class="carousel-slide-img">
+                    <img alt="Screenshot Calamares Installer" src="img/carousel/slide4.png" class="carousel-slide-img">
+                    <img alt="Debian is like a Swiss Army Knife" src="img/carousel/slide5.jpg" class="carousel-slide-img">
+                    <img alt="People have fun with Debian" src="img/carousel/slide6.jpg" class="carousel-slide-img">
+
+                    <button class="content-carousel-button" onclick="nextSlide()">
+                        <p class="content-carousel-button-text"> > </p>
+                    </button>
+                </div>
+            </div>
+
+            <div class="content-more">
+                <section>
+                    <h2 class="content-more-title">About the community</h2>
+                    <div class="content-more-item">
+                        <img src="icons/users.svg" class="content-more-item-icon">
+                        <div>
+                            <h3 class="content-more-item-title">People</h3>
+                            <p class="content-more-item-paragraph">Who we are and what we do</p>
+                        </div>
+                    </div>
+
+                    <div class="content-more-item">
+                        <img src="icons/heartbeat.svg" class="content-more-item-icon">
+                        <div>
+                            <h3 class="content-more-item-title">Our Philosophy</h3>
+                            <p class="content-more-item-paragraph">Why we do it, and how we do it</p>
+                        </div>
+                    </div>
+                    <div class="content-more-item">
+                        <img src="icons/user-plus.svg" class="content-more-item-icon">
+                        <div>
+                            <h3 class="content-more-item-title">Get Involved, Contribute</h3>
+                            <p class="content-more-item-paragraph">How you can join us!</p>
+                        </div>
+                    </div>
+                    <div class="content-more-item">
+                        <img src="icons/list.svg" class="content-more-item-icon">
+                        <div>
+                            <h3 class="content-more-item-title">More...</h3>
+                            <p class="content-more-item-paragraph">Additional information about the Debian community</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <h2 class="content-more-title">About the operating system</h2>
+                    <div class="content-more-item">
+                        <img src="icons/trophy.svg" class="content-more-item-icon">
+                        <div>
+                            <h3 class="content-more-item-title">Why Debian</h3>
+                            <p class="content-more-item-paragraph">What makes Debian special</p>
+                        </div>
+                    </div>
+
+                    <div class="content-more-item">
+                        <img src="icons/life-ring.svg" class="content-more-item-icon">
+                        <div>
+                            <h3 class="content-more-item-title">User Suport</h3>
+                            <p class="content-more-item-paragraph">Getting help and documentation</p>
+                        </div>
+                    </div>
+
+                    <div class="content-more-item">
+                        <img src="icons/security.svg" class="content-more-item-icon">
+                        <div>
+                            <h3 class="content-more-item-title">Security Updates</h3>
+                            <p class="content-more-item-paragraph">Debian Security Advisories (DSA)</p>
+                        </div>
+                    </div>
+
+                    <div class="content-more-item">
+                        <img src="icons/list.svg" class="content-more-item-icon">
+                        <div>
+                            <h3 class="content-more-item-title">More...</h3>
+                            <p class="content-more-item-paragraph">Further links to downloads and software</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img alt="logo" src="img/debian-logo.png" class="footer-logo-img">
+                        <p class="footer-logo-txt">Debian</p>
+                    </div>
+                    <p class="footer-paragraph">Debian is a free and open-source operating system, developed by a global community of volunteers.</p>
+                </div>
+                <table class="table">
+                    <thead>
+                        <th class="table-title">People</th>
+                        <th class="table-title">Commercial</th>
+                        <th class="table-title">Status</th>
+                        <th class="table-title">Legal</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="table-cell">Team</td>
+                            <td class="table-cell">Partners</td>
+                            <td class="table-cell">Mirrors</td>
+                            <td class="table-cell">Privacy Policy</td>
+                        <tr>
+
+                        </tr>
+                            <td class="table-cell">Donate</td>
+                            <td class="table-cell">DPP</td>
+                            <td class="table-cell">Packages</td>
+                            <td class="table-cell">Terms Of Use</td>
+                        <tr>
+
+                        </tr>
+                            <td class="table-cell">Contribute</td>
+                            <td class="table-cell">Contact</td>
+                            <td class="table-cell">Servers</td>
+                            <td class="table-cell">Imprint</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <hr class="footer-line">
+            <div class="footer-container">
+                <p class="footer-text">Copyright © 1997-2025 SPI and others; See license terms</p>
+                <p class="footer-text">Debian is a registered trademark of Software in the Public Interest, Inc.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/carousel.js"></script>
+</body>
+</html>
