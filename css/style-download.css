@@ -7,7 +7,8 @@
 .content-download {
     display: flex;
     flex-direction: row;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(21, 118, 255);
+    padding: 40px;
     padding-left: 200px;
     padding-right: 200px;
 }
@@ -32,7 +33,7 @@
     margin: 30px;
     width: 576px;
     height: 324px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .content-download-button:hover {
@@ -70,12 +71,12 @@
 }
 
 .content-download-link-text {
-    font-size: 17px;
+    font-size: 18px;
     font-family: sans-serif;
 }
 
 .content-download-link-text:hover {
-    color: blue;
+    color: aliceblue;
 }
 
 .content-download-area {

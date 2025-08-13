@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: aqua;
+    background-color: aliceblue;
 }
 
 .content-carousel-title {
@@ -21,19 +21,21 @@
     display: flex;
     align-items: center;
     padding: 50px;
-    background-color: rgb(0, 255, 81);
+    background-color: rgb(172, 191, 242);
+    border-radius: 20px;
+    margin: 10px;
 }
 
 .content-carousel-button {
     margin: 20px;
     padding: 15px;
-    background-color: rgb(80, 146, 204);
+    background-color: rgb(36, 127, 207);
     border-radius: 25px;
     border-width: 0px;
 }
 
 .content-carousel-button:hover {
-    background-color: rgb(51, 92, 129);
+    background-color: rgb(24, 76, 122);
     transition: 300ms;
 }
 

@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-around;
     flex-direction: row;  
+    background-color: teal;
+    padding: 40px;
 }
 
 .content-more-title {
@@ -17,12 +19,12 @@
     flex-direction: row; 
     padding: 10px;
     margin: 10px;
-    border: 2px black solid;
     border-radius: 10px;
+    background-color: rgb(228, 236, 250);
 }
 
 .content-more-item:hover {
-    background-color: rgb(1, 1, 1, 0.5);
+    background-color: rgb(119, 123, 131);
     transition: 300ms;
 }
 
@@ -33,12 +35,12 @@
 }
 
 .content-more-item-title {
-    font-size: 25px;
+    font-size: 22px;
     font-family: sans-serif;
     font-weight: bold;
 }
 
 .content-more-item-paragraph {
-    font-size: 20px;
+    font-size: 18px;
     font-family: sans-serif;
 }

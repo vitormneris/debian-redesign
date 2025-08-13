@@ -1,5 +1,6 @@
 .footer {
-    background-color: rgb(255, 196, 0);
+    padding-top: 40px;
+    background-color: rgb(212, 212, 212);
 }
 
 .footer-content {
@@ -9,7 +10,9 @@
 }
 
 .footer-section {
-    margin: 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
     max-width: 450px;
 }
 
@@ -23,34 +26,42 @@
     font-weight: bold;
     text-align: left;
     padding: 10px;
+    padding-left: 40px;
+
 }
 
 .table-cell {
+    padding: 10px;
+    padding-left: 40px;
+}
+
+.table-cell-paragraph {
     font-size: 20px;
     font-family: sans-serif;
     text-align: left;
-    padding: 10px;
+}
+
+.table-cell-paragraph:hover {
+    color: blue;
 }
 
 .footer-logo {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 10px;
-    background-color: rgb(85, 255, 0);
+    padding-bottom: 10px;
 }
 
 .footer-logo-img {
     width: 110px;
     height: 54px;
-    background-color: pink;
 }
 
 .footer-logo-txt {
+    margin-left: -25px;
     font-size: 25px;
     font-family: sans-serif;
     font-weight: bold;
-    background-color: aqua;
 }
 
 .footer-paragraph {
@@ -64,7 +75,8 @@
 }
 
 .footer-container {
-    margin: 20px;
+    margin: 35px;
+    margin-left: 190px;
 }
 
 .footer-text {
