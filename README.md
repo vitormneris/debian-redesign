@@ -52,7 +52,7 @@ http://localhost:8080
 ```
 
 > Dica: no VS Code você pode usar a extensão **Live Server** para executar e recarregar automaticamente durante o desenvolvimento.
-> A porta sugerida é 8080, mas sinta-se livre para mudar se nessário
+> A porta sugerida é 8080, mas sinta-se livre para mudar se necessário
 
 ## Licença
 
